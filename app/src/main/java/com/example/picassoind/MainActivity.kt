@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
 
     private var currentIndex = 0
 
-    private val imagePaths = listOf(
+    private val imagePaths = mutableListOf(
         "https://i.pinimg.com/736x/2a/91/b6/2a91b650d14116256d21434b09dbca98.jpg",
         "https://i.pinimg.com/originals/4e/ca/cb/4ecacbb84ab60c5fe903de1b1d4f5297.jpg",
         "https://pic.rutubelist.ru/user/4f/0d/4f0dd37df705b4f48bb3895b67a7c826.jpg",
